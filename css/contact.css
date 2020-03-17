@@ -1,0 +1,20 @@
+
+
+.contact_up{
+	min-height: 120px;
+	position: relative;
+	background-color: #F26F23;
+}
+.contact_us{
+	font-size: 30px;
+	margin:30px 520px;
+	color: white;
+	position: absolute;
+}
+.contact{
+	background-color: #F5F5F5;
+	margin-bottom: 20px;
+}
+.icon-title{
+	color:#F26F23; 
+}

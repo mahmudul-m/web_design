@@ -1,0 +1,347 @@
+
+
+.header{
+	min-height: 150px;
+	position: relative;
+	background-color: white;
+}
+.header1{
+	min-height: 150px;
+	margin:auto;
+}
+.logo_area{
+	width: 220px;
+	height: 120px;	
+	margin-top: 15px;
+	float: left;
+	
+}
+.logo_img{
+	width: 220px;
+	height: 120px;
+}
+.s_media{
+	width: 25%;
+	min-height: 30px;
+	top: 20px;
+	right: 0;
+	position: absolute;
+	
+}
+.social_m{
+   font-size: 18px;
+}
+.navbar_area{
+	height: 60px;
+	float: right;
+	margin-top: 75px;
+	z-index: 1;
+	/*border: 1px solid gray;*/
+}
+
+
+
+/*Navbar Start*/
+
+.nav_bg{
+   color: #F26F23;
+}
+li a{
+	color: #F26F23;
+}
+.home{
+	color: #1BC823;
+	font-size: 26px;
+}
+.dropdown:hover>.dropdown-menu{
+	display: block;
+	background-color:  #0088cc;
+}
+li{
+	margin-left: 20px;
+	font-size: 16px;
+}
+
+/*Slide Start*/
+
+.slide_main{
+	min-height: 400px;
+	margin:0;
+	padding: 0;
+}
+.carousel-inner img {
+      width: 100%;
+      height: 100%;
+  }
+
+  /*Mid content One*/
+
+.mid_one{
+	min-height: 150px;
+	position: relative;
+   background-color: #F5F5F5;
+}
+.mid_one_text{
+	font-size: 34px;
+	margin:50px 80px;
+	position: absolute;
+}
+
+/*Mid content Two*/
+
+.row1{
+	width: 90%;
+	margin:auto;
+}
+.mid_content2{
+	min-height: 300px;
+	background-color: white;
+	/*border: 1px solid gray;*/
+}
+.mid_content2:hover{
+	background-color: #D9D8D8;
+
+}
+.service1{
+	width: 80px;
+	min-height: 80px;
+	border: 1px solid #F26F23;
+	border-radius: 50%;
+	margin:30px auto;
+}
+.service_heading{
+	text-align: center;
+}
+.service_p_area{
+	width: 280px;
+	min-height: 100px;
+	margin:auto;
+	
+}
+.service_p{
+	margin-left: 40px;
+	
+}
+.learn_more{
+	margin-left: 90px;
+	color:#F03C02;
+}
+
+/*Mid content3*/
+
+.content3_main{
+	min-height: 700px;
+	background-color: #F5F3F3;
+}
+
+.mid_content3{
+	width: 90%;
+	min-height: 650px;
+	margin:auto;
+	position: relative;
+	background-color:#F5F3F3;
+}
+.content3_heading{
+	color: #F26F23;
+	margin-top: 30px;
+	position: absolute;
+}
+.content3_img{
+	width: 290px;
+	min-height: 230px;
+	margin-top:90px;
+	margin-left:20px;
+	/* border: 1px solid red; */
+}
+.content3_img1{
+	width: 290px;
+	min-height: 230px;
+	margin-top:90px;
+	margin-left:20px;
+	
+}
+.content3_img2{
+	width: 290px;
+	min-height: 230px;
+	margin-top:30px;
+	margin-left:20px;
+	
+}
+.content3_img3{
+	width: 290px;
+	min-height: 230px;
+	margin-top:30px;
+	margin-left:20px;
+	
+}
+
+/*IMAGE SECTION*/
+.contain {
+  position: relative;
+  width: 100%;
+}
+
+.image {
+  width: 100%;
+  height: 230px;
+}
+
+.overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #F26F23;
+  opacity: .9;
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+  -webkit-transform: scale(0);
+  -ms-transform: scale(0);
+  transform: scale(0);
+  -webkit-transition: .3s ease;
+  transition: .3s ease;
+}
+
+.contain:hover .overlay {
+  -webkit-transform: scale(1);
+  -ms-transform: scale(1);
+  transform: scale(1);
+}
+
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+/*Mid content4*/
+
+.mid_content4{
+	min-height: 200px;
+	margin:auto;
+	
+}
+.content4_head{
+   margin-top: 20px;
+   color: #FA660D;
+
+}
+.clinte{
+	width: 15.66%;
+	min-height: 80px;
+	margin-top: 30px;
+	float: left;
+	
+}
+/*.clinte:hover{
+	border: 2px solid #FA660D;
+}*/
+.clinte1{
+	width: 15.66%;
+	min-height: 80px;
+	margin-top: 30px;
+	float: left;
+	margin-left: 1%;
+	
+}
+/*.clinte1:hover{
+	border: 2px solid #FA660D;
+}*/
+.clint_img{
+	width: 100%;
+}
+
+/*Footer start*/
+
+.footer{
+	min-height: 300px;
+	background-color: #111111;
+}
+.under_footer{
+	min-height: 100px;
+	background-color: #0A0A0A;
+}
+
+
+/*Top Button*/
+
+
+#myBtn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 1;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  background-color: #F26F23;
+  color: white;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 4px;
+}
+
+#myBtn:hover {
+  background-color: #941ADA;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 768px) {
+  
+  .header{
+	min-height: 280px;
+	
+}
+  .header1{
+	min-height: 280px;
+	margin:auto;
+}
+.logo_area{
+	margin: 0;
+}
+.nav_bg{
+   background-color:#F26F23;
+}
+.bnt{
+   background-color:orange;
+}
+li a{
+	color: white;
+}
+}
